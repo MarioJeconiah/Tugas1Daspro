@@ -1,7 +1,8 @@
 program tugas;
 uses crt;
 var 
-    nama, kom, nim, alamat : string;
+    nama, nim, alamat : string;
+    kom : char;
 begin
     clrscr;
     write('Masukkan Nama anda: '); readln(nama);
