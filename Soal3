@@ -4,13 +4,9 @@ var
     nama, kom, nim, alamat : string;
 begin
     clrscr;
-    write('Masukkan Nama anda: ');
-    readln(nama);
-    write('Masukkan NIM anda: ');
-    readln(nim);
-    write('Masukkan KOM anda: ');
-    readln(kom);
-    write('Masukkan Alamat anda: ');
-    readln(alamat);
+    write('Masukkan Nama anda: '); readln(nama);
+    write('Masukkan NIM anda: '); readln(nim);
+    write('Masukkan KOM anda: '); readln(kom);
+    write('Masukkan Alamat anda: '); readln(alamat);
     write('Hallo, Nama saya ', nama ,', NIM saya ', nim ,', saya di KOM ', kom ,', alamat saya di ', alamat ,'. Salam Kenal Semua!');
     end.
